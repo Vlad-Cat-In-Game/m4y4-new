@@ -1,0 +1,145 @@
+body {
+    font-family: sans-serif;
+    background-color:rgb(226, 117, 117);
+}
+
+header {
+    justify-content: space-between;
+    padding: 0px;
+    margin-bottom: 20px;
+    background-color: black;
+}
+
+.button {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 50%;
+}
+
+nav {
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    padding: 25px 100px 25px 95px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.info {
+    flex-wrap: wrap;
+    margin: 0px auto 0px auto;
+    display: flex;
+    justify-content: center;
+    max-width: 1100px;
+}
+
+article {
+    background-color: white;
+    padding: 25px;
+    width: 400px;
+    margin: 40px;
+    text-align: center;
+}
+
+.article-but {
+    text-decoration: none;
+
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    background-color: orange;
+        transition: 0.7s;
+        display: block;
+}
+
+footer {
+    background-color: #AC13A6;
+    padding: 20px 20px ;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    margin-right: 10px;
+}
+
+footer p {
+    font-size: 24px;
+}
+
+header, nav, .info, footer {
+    display: flex;
+}
+
+.article-lep {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    background-color: red;
+    transition: 0.7s;
+    display: block;
+}
+
+.article-kot {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    background-color: lightgreen;
+        transition: 0.7s;
+        display: block;
+}
+
+.article-tel {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    background-color: purple;
+        transition: 0.7s;
+        display: block;
+}
+
+.article-but:hover{
+    background-color: red;
+    color: white;
+}
+
+.article-kot:hover{
+    background-color: green;
+    color: white;
+}
+
+.article-lep:hover{
+    background-color: darkred;
+    color: white;
+}
+
+.article-tel:hover{
+    background-color: black;
+    color: white;
+}
